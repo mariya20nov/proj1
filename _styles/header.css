@@ -54,12 +54,13 @@ body > header > section:last-child > * {
 body > header > section:last-child > a {
     clear: left;
     float: left;
-    color: rgba(7, 52, 148, 0.87);
+    color: rgba(7, 152, 148, 0.87);
     margin: 13px 24px 17px 33px;
 }
 body > header > section:last-child > a > * {
     margin: 0;
     padding: 0;
+    color: rgba(7, 152, 148, 0.87);
 }
 body > header > section:last-child > a > i {
     margin-right: 10px;
@@ -68,6 +69,7 @@ body > header > section:last-child > h1 {
     float: left;
     margin: 0;
     padding-top: 12px;
+    color: rgba(72, 72, 74, 0.87);
 }
 
 #dropDownMenuButton {
@@ -78,4 +80,5 @@ body > header > section:last-child > h1 {
     height: 16px;
     padding: 0;
     margin: 12px 196px auto auto;
+    color: rgba(72, 72, 74, 0.87);
 }
