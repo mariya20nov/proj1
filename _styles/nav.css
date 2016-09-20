@@ -1,0 +1,43 @@
+body > aside {
+    margin: 24px 23px 108px 149px;
+    display: inline-block;
+    float: left;
+    width: 73px;
+    background-color: #fff;
+    height: 311px;
+    width: 90px;
+}
+
+body > aside > nav {
+    width: 75px;
+    height: 293px;
+    background-color: white;
+    border: 1px solid rgba(191, 191, 191, 0.25);
+    border-radius: 2px;
+    box-shadow: 0.5px 7px 9px rgba(0, 0, 0, 0.2);
+}
+
+body > aside > nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body > aside > nav > ul > li {
+    height: 48px;
+    width: 100%;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+body > aside > nav > ul > li > a {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    color: rgba(0, 0, 0, .54);
+}
+body > aside > nav > ul > li > a:after {
+    font-family: FontAwesome;
+    content: '\f078'; /* todo сменить icon-class на шрифт в других местах*/
+}

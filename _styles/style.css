@@ -1,0 +1,15 @@
+@import "header.css";
+@import "nav.css";
+@import "content.css";
+@import "footer.css";
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(/_fonts/fontawesome-webfont.ttf);
+}
+
+a { text-decoration: none; }

@@ -1,0 +1,19 @@
+body > footer {
+    width: 100%;
+    height: 24px;
+    background-color: #eee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+body > footer > p {
+    margin: auto;
+    width: 234px;
+    height: 8px;
+    opacity: 0.38;
+    color: black;
+    font-size: 11px;
+    font-weight: 400; /* todo шрифты*/
+    line-height: 48px;
+}

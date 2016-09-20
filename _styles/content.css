@@ -1,0 +1,132 @@
+/*body > section {*/
+    /*position: absolute;*/
+    /*left: 269px;*/
+    /*top: 54px;*/
+    /*width: 293px;*/
+    /*height: 401px;*/
+/*}*/
+
+body > section > section {
+    position: absolute;
+    left: 254px;
+    top: 136px;
+    width: 293px;
+    height: 401px;
+    background-color: white;
+    border: 1px solid rgba(191, 191, 191, 0.25);
+    border-radius: 1px;
+    box-shadow: 0.2px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+body > section > section > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body > section > section > ul > li {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    height: 41px;
+}
+body > section > section > ul > li:first-child {
+    position: relative;
+    height: 231px;
+}
+body > section > section > ul > li > p {
+    display: inline;
+}
+body > section > section > ul > li > p:last-child {
+    float: right;
+}
+
+/*body > section > ul > li > section > * {*/
+    /*!*display: inline;*!*/
+    /*position: absolute;*/
+/*}*/
+
+#name {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    height: 61px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#name > * {
+    position: absolute;
+    margin: 0;
+}
+#name > input {
+    top: 17px;
+    left: 16px;
+}
+#name > p {
+    /*display: block; todo ?*/
+    top: 45px;
+    left: 19px;
+}
+#name > h1 {
+    top: 18px;
+    left: 48px;
+}
+
+
+#molecule {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    height: 130px;
+}
+#molecule > a {
+    width: 132px; /*todo 107px шрифт*/
+    display: block;
+    margin: 0 auto;
+}
+#molecule > figure {
+    width: 95px;
+    height: 76px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+#tools {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    border-top: 1px solid rgba(0, 0, 0, .12);
+}
+
+#tools > *{
+    display: inline-block;
+}
+
+#L {
+    width: 21px;
+    height: 14px;
+    color: rgba(0, 0, 0, .54);
+    margin: 7px;
+}
+.fa-pencil {
+    margin: 0 18px 0 73px;
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, .47);
+}
+.fa-chevron-left,
+.fa-chevron-right {
+    width: 6px;
+    height: 11px;
+    color: rgba(0, 0, 0, .54);
+    margin: 14px;
+}
