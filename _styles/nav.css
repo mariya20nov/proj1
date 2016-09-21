@@ -1,5 +1,5 @@
 body > aside {
-    margin: 22px 23px 108px 155px;
+    margin: 19px 23px 108px 155px;
     display: inline-block;
     clear: left;
     float: left;
@@ -34,8 +34,9 @@ body > aside > nav > ul > li {
 body > aside > nav > ul > li > a {
     position: absolute;
     left: 10px;
-    top: 18px;
-    color: rgba(0, 0, 0, .54);
+    top: 16px;
+    color: rgba(1, 1, 1, .54);
+    font-size: 13px;
 }
 /*body > aside > nav > ul > li > a:after {*/
     /*font-family: FontAwesome;*/
