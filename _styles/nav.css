@@ -48,4 +48,5 @@ body > aside > nav > ul > li > i {
     margin-top: 18px; /* todo проверить после смены шрифтов*/
     margin-right: 10px;
     color: rgba(102, 102, 102, .54);
+    font-size: 6px !important;
 }

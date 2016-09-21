@@ -1,18 +1,10 @@
-/*body > section {*/
-    /*position: absolute;*/
-    /*left: 269px;*/
-    /*top: 54px;*/
-    /*width: 293px;*/
-    /*height: 401px;*/
-/*}*/
-
 body > section > section {
     /*todo убрать 3 стр - сделать с маргинами*/
     position: absolute;
     left: 254px;
     top: 136px;
-    width: 293px;
-    height: 401px;
+    width: 290px;
+    height: 400px;
     background-color: white;
     border: 1px solid rgba(191, 191, 191, 0.25);
     border-radius: 1px;
@@ -26,6 +18,7 @@ body > section > section > ul{
 }
 
 body > section > section > ul > li {
+    position: relative;
     border-bottom: 1px solid rgba(0, 0, 0, .12);
     height: 41px;
 }
@@ -33,43 +26,55 @@ body > section > section > ul > li:first-child {
     position: relative;
     height: 231px;
 }
-body > section > section > ul > li > p {
+body > section > section > ul > li > p:first-child {
+    position: absolute;
+    left: 12px;
+    top: -2px;
     display: inline;
+    font-size: 14px;
 }
 body > section > section > ul > li > p:last-child {
     float: right;
+    margin: 13px 19px auto auto;
+    font-size: 14px;
 }
 
-/*body > section > ul > li > section > * {*/
-    /*!*display: inline;*!*/
-    /*position: absolute;*/
-/*}*/
-
 #name {
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*width: 100%;*/
-    height: 61px;
+    height: 65px;
     position: relative;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
 }
 #name > * {
     position: absolute;
     margin: 0;
 }
-#name > input {
+#name > input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
     top: 17px;
     left: 16px;
+    color: #079894; /* todo color */
 }
 #name > p {
     /*display: block; todo ?*/
-    top: 45px;
-    left: 19px;
+    top: 42px;
+    left: 17px;
+    font-size: 12px;
+    color: rgba(1, 1, 1, .54);
 }
 #name > h1 {
-    top: 18px;
-    left: 48px;
+    top: 15px;
+    left: 47px;
+    font-size: 14px;
+    color: rgba(1, 1, 1, .54);
+}
+#name > h2 {
+    top: 33px;
+    left: 47px;
+    font-size: 14px;
+    color: rgba(1, 1, 1, .54);
 }
 
 
@@ -83,12 +88,15 @@ body > section > section > ul > li > p:last-child {
 #molecule > a {
     width: 132px; /*todo 107px шрифт*/
     display: block;
-    margin: 0 auto;
+    margin: 15px auto auto 88px;
+    font-size: 12px;
+    color: rgba(7, 152, 148, 0.87);
+    text-decoration: underline;
 }
 #molecule > figure {
     width: 95px;
     height: 76px;
-    margin: 0 auto;
+    margin: 17px auto auto 90px;
 }
 
 
@@ -113,21 +121,23 @@ body > section > section > ul > li > p:last-child {
 }
 
 #L {
-    width: 21px;
-    height: 14px;
+    /*width: 21px;*/
+    /*height: 14px;*/
     color: rgba(0, 0, 0, .54);
-    margin: 7px;
+    margin: 9px 6px 1px 4px;
+    font-size: 18px;
 }
 .fa-pencil {
-    margin: 0 18px 0 73px;
+    margin: 0 17px 0 74px;
     width: 15px;
     height: 15px;
     color: rgba(0, 0, 0, .47);
 }
 .fa-chevron-left,
 .fa-chevron-right {
-    width: 6px;
-    height: 11px;
+    /*width: 6px;*/
+    /*height: 11px;*/
     color: rgba(0, 0, 0, .54);
-    margin: 14px;
+    margin: 6px 14px 14px 8px;
+    font-size: 12px !important;
 }
