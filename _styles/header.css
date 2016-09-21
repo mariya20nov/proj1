@@ -7,7 +7,7 @@ body > header > section:first-child {
 body > header > section:last-child { /*get off */
     position: relative;
     background-color: #fff;
-    height: 48px;
+    height: 47px;
     border: 1px solid rgba(191, 191, 191, 0.25);
 }
 
@@ -17,21 +17,33 @@ body > header > section > * {
 
 #menuButton {
     padding: 0;
-    margin: 26px 20px 26px 24px;
+    margin: 25px 20px 26px 24px;
     font-size: 18px;
     color: #fff;
+    /*font-weight: lighter;*/
 }
 #logo {
     padding: 0;
-    margin: 18px 15px 14px 0px;
+    margin: 17px 14px 14px 3px;
 }
 #projectName {
     border-left: 1px solid #fff;
     height: 28px;
     padding-left: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 18px;
+    /*vertical-align: middle;*/
+}
+#userName {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-right: 8px;
 }
 #exitButton {
-    margin: 22px 31px auto 7px /* todo */
+    margin: 22px 265px auto 7px; /* todo */
+    font-size: large;
 }
 
 
@@ -75,10 +87,10 @@ body > header > section:last-child > h1 {
 #dropDownMenuButton {
     clear: right;
     float: right;
-    font-size: 16px;
     widows: 4px;
     height: 16px;
     padding: 0;
-    margin: 12px 196px auto auto;
-    color: rgba(72, 72, 74, 0.87);
+    margin: 11px 412px auto auto;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 19px;
 }

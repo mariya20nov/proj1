@@ -3,6 +3,10 @@
 @import "content.css";
 @import "footer.css";
 
+html {
+    font-family: Arial;
+}
+
 body {
     margin: 0;
 }
