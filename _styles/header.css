@@ -95,9 +95,15 @@ body > header > section:last-child > h1 {
     color: rgba(0, 0, 0, 0.54);
     font-size: 19px;
 }
-/*body > header > section:last-child > section:hover {*/
-    /*display: none;*/
-/*}*/
+body > header > section:last-child > section {
+    display: none;
+}
+
+/*body > header > section:last-child > section:hover + #dropDownMenuButton {*/
+body > header > section:last-child > i:hover ~ #menu,
+#menu:hover {
+    display: block;
+}
 body > header > section:last-child > section {
     position: absolute;
     right: 427px;
@@ -107,12 +113,6 @@ body > header > section:last-child > section {
     background-color: rgba(255, 255, 255, 1); /* todo not transparent */
     z-index: 1;
 }
-/*body > header > section:last-child > section > section:first-child {*/
-    /*margin-top: 24px;!*todo*!*/
-/*}*/
-/*body > header > section:last-child > section > section {*/
-    /*margin-top: 22px;!*todo*!*/
-/*}*/
 body > header > section:last-child > section > section > input[type="checkbox"] {
     /*display: inline;*/
     margin: 0 0 0 20px;
