@@ -95,3 +95,62 @@ body > header > section:last-child > h1 {
     color: rgba(0, 0, 0, 0.54);
     font-size: 19px;
 }
+/*body > header > section:last-child > section:hover {*/
+    /*display: none;*/
+/*}*/
+body > header > section:last-child > section {
+    position: absolute;
+    right: 427px;
+    width: 214px;
+    height: 154px;
+    box-shadow: 0.9px 0.5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 1); /* todo not transparent */
+    z-index: 1;
+}
+/*body > header > section:last-child > section > section:first-child {*/
+    /*margin-top: 24px;!*todo*!*/
+/*}*/
+/*body > header > section:last-child > section > section {*/
+    /*margin-top: 22px;!*todo*!*/
+/*}*/
+body > header > section:last-child > section > section > input[type="checkbox"] {
+    /*display: inline;*/
+    margin: 0 0 0 20px;
+    width: 16px;
+    height: 16px;
+    background-color: #079894;
+    display: none;
+}
+body > header > section:last-child > section > section > label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 19px;
+    margin-left: 16px;
+    background-color: #fff;
+    border: 2px solid rgba(117, 117, 117, .54);
+    vertical-align:middle;
+}
+body > header > section:last-child > section > section > input[type="checkbox"]:checked + label:before {
+    content: "\2714";
+    color: #f3f3f3;
+    font-size: 16px;
+    /*text-align: center;*/
+    line-height: 18px;
+    background-color: #079894;
+}
+body > header > section:last-child > section > section > p {
+    display: inline;
+    font-size: 14px;
+    vertical-align: bottom;
+    margin-left: 1px;
+}
+
+body > header > section:last-child > section > section {
+    margin-left: 6px;
+    margin-bottom: 2px;
+}
+body > header > section:last-child > section > section:first-child {
+    margin-top: 4px;
+}

@@ -70,29 +70,30 @@ body > section > section > ul > li > p:last-child {
 #name > input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    top: 17px;
-    left: 16px;
+    top: 15px;
+    left: 14px;
     background-color: #079894;
     display: none;
 }
 #name > label:before {
     content: "";
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin-top: 17px;
-    margin-left: 16px;
-    background-color: #079894;
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 14px;
+    background-color: #fff;
+    border: 2px solid rgba(117, 117, 117, .54);
 }
 #name > input[type="checkbox"]:checked + label:before {
     content: "\2714";
     color: #f3f3f3;
     font-size: 16px;
     text-align: center;
-    line-height: 18px; /* todo */
+    line-height: 18px;
+    background-color: #079894;
 }
 #name > p {
-    /*display: block; todo ?*/
     top: 42px;
     left: 17px;
     font-size: 12px;
@@ -132,13 +133,6 @@ body > section > section > ul > li > p:last-child {
     height: 76px;
     margin: 17px auto auto 90px;
 }
-
-
-
-
-
-
-
 
 #tools {
     position: absolute;
