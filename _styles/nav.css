@@ -38,11 +38,6 @@ body > aside > nav > ul > li > a {
     color: rgba(1, 1, 1, .54);
     font-size: 13px;
 }
-/*body > aside > nav > ul > li > a:after {*/
-    /*font-family: FontAwesome;*/
-    /*content: '\f078'; !* todo сменить icon-class на шрифт в других местах*!*/
-    /*float: right;*/
-/*}*/
 body > aside > nav > ul > li > i {
     float: right;
     margin-top: 18px; /* todo проверить после смены шрифтов*/

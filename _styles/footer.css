@@ -54,5 +54,4 @@ body > footer > section:last-child > p {
     height: 10px;
     color: rgba(0, 0, 0, 0.38);
     font-size: 11px; /* todo шрифты*/
-    /*font-stretch: semi-expanded;*/
 }
