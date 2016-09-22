@@ -28,10 +28,6 @@ body > footer:hover > section:first-child > * {
 body > footer > section:first-child > * {
     color: rgb(119,119,119);
 }
-/*body > footer > section:first-child > p {*/
-    /*margin-right: 40px;*/
-    /*!*font-stretch: semi-condensed;*!*/
-/*}*/
 #cards {
     margin-right: 32px;
 }

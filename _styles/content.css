@@ -72,7 +72,24 @@ body > section > section > ul > li > p:last-child {
     height: 18px;
     top: 17px;
     left: 16px;
-    color: #079894; /* todo color */
+    background-color: #079894;
+    display: none;
+}
+#name > label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 16px;
+    background-color: #079894;
+}
+#name > input[type="checkbox"]:checked + label:before {
+    content: "\2714";
+    color: #f3f3f3;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px; /* todo */
 }
 #name > p {
     /*display: block; todo ?*/
@@ -138,8 +155,6 @@ body > section > section > ul > li > p:last-child {
 }
 
 #L {
-    /*width: 21px;*/
-    /*height: 14px;*/
     color: rgba(0, 0, 0, .54);
     margin: 9px 6px 1px 4px;
     font-size: 18px;
@@ -152,8 +167,6 @@ body > section > section > ul > li > p:last-child {
 }
 .fa-chevron-left,
 .fa-chevron-right {
-    /*width: 6px;*/
-    /*height: 11px;*/
     color: rgba(0, 0, 0, .54);
     margin: 6px 14px 14px 8px;
     font-size: 12px !important;
