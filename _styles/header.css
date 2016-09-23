@@ -95,10 +95,18 @@ body > header > section:last-child > h1 {
     color: rgba(0, 0, 0, 0.54);
     font-size: 19px;
 }
+#filter {
+    float: right;
+    width: 4px;
+    height: 16px;
+    margin: 10px 14px auto auto;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 19px;
+}
 body > header > section:last-child > section {
     display: none;
 }
-body > header > section:last-child > i:hover ~ #menu,
+body > header > section:last-child > #filter:hover ~ #menu,
 #menu:hover {
     display: block;
 }
