@@ -1,10 +1,10 @@
 body > section {
-    width: 1000px;
-    margin-left: 250px;
-    margin-bottom: 30px;
+    width: 1050px;
+    margin: auto;
 }
 
 body > section > section {
+    float:right;
     display: inline-block;
     margin: 23px 21px -5px auto;
     width: 290px;

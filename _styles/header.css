@@ -42,7 +42,7 @@ body > header > section > * {
     margin-right: 8px;
 }
 #exitButton {
-    margin: 22px 265px auto 7px; /* todo */
+    margin: 22px 2.2% auto 7px;
     font-size: large;
 }
 
@@ -90,8 +90,8 @@ body > header > section:last-child > h1 {
     float: right;
     width: 4px;
     height: 16px;
-    padding-left: 15px;
-    margin: 11px 412px auto auto;
+    /*margin: 11px 412px auto auto;*/
+    margin: 11px 13.2% auto auto;
     color: rgba(0, 0, 0, 0.54);
     font-size: 19px;
 }
@@ -99,7 +99,7 @@ body > header > section:last-child > h1 {
     float: right;
     width: 4px;
     height: 16px;
-    margin: 10px 14px auto auto;
+    margin: 10px 30px auto auto;
     color: rgba(0, 0, 0, 0.54);
     font-size: 19px;
 }
@@ -112,7 +112,8 @@ body > header > section:last-child > #filter:hover ~ #menu,
 }
 body > header > section:last-child > section {
     position: absolute;
-    right: 427px;
+    /*right: 427px;*/
+    right: 14.5%;
     width: 214px;
     height: 154px;
     box-shadow: 0.9px 0.5px 5px rgba(0, 0, 0, 0.3);
