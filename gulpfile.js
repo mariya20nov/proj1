@@ -14,7 +14,7 @@
 
 // // gulp.task('browserify', function () {
 // //     return browserify({
-// //         entries: '_script/index.js',
+// //         entries: 'script/index.js',
 // //         extensions: ['.js'],
 // //         debug: true
 // //     });
@@ -48,12 +48,12 @@
 // });
 //
 // gulp.task('watch', function () {
-//     gulp.watch(['_script/*.js'], ['browserify']);
-//     gulp.watch(['_styles/*.css'], ['browserify']);
+//     gulp.watch(['script/*.js'], ['browserify']);
+//     gulp.watch(['styles/*.css'], ['browserify']);
 // });
 //
 // gulp.task('lint', function () {
-//     return gulp.src('_script/*.js')
+//     return gulp.src('script/*.js')
 //         .pipe(plugins.eslint())
 //         .pipe(plugins.eslint.format())
 //         .pipe(plugins.eslint.failAfterError());
@@ -66,14 +66,13 @@ var gulp = require('gulp');
 var browserify = require('browserify');
 var transform = require('vinyl-transform');
 var through2 = require('through2');
-// var webserver = require('gulp-webserver');
 var server = require('gulp-express');
 gulp.task('browserify', function () {
     var browserified = transform(function (filename) {
         return browserify(filename).bundle();
     });
 
-    return gulp.src('index.js')
+    return gulp.src('script/index.js')
         .pipe(through2.obj(function (file, enc, next) {
             browserify(file.path)
                 .bundle(function (err, res) {
@@ -90,7 +89,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('./*.js', ['browserify']);
+    gulp.watch(['script/*.js'], ['browserify']);
 });
 
 
