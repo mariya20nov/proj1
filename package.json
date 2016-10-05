@@ -1,0 +1,32 @@
+{
+  "name": "proj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_script/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariya20nov/proj1.git"
+  },
+  "author": "Maria Kuznetsova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariya20nov/proj1/issues"
+  },
+  "homepage": "https://github.com/mariya20nov/proj1#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-express": "^0.3.5",
+    "gulp-load-plugins": "^1.3.0",
+    "jquery": "^3.1.1",
+    "through2": "^2.0.1",
+    "vinyl-transform": "^1.0.0"
+  }
+}

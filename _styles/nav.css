@@ -9,7 +9,6 @@ body > section > aside {
 
 body > section > aside > nav {
     width: 75px;
-    height: 293px;
     background-color: white;
     border: 1px solid rgba(191, 191, 191, 0.25);
     border-radius: 2px;
